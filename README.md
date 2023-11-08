@@ -1,4 +1,4 @@
-# FAQ accordion card (Frontend Mentor)
+# Base Apparel (Frontend Mentor)
 ## Challenge #005
 
 ![Design preview for the Base Apparel coding challenge](./images/page-view.png)
