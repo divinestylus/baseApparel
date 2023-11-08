@@ -119,7 +119,7 @@ img {
     inset: 0;
     margin: 0 0 0 auto;
     z-index: 1;
-    padding-inline: 1.7rem;
+    width: 60px;
     border-radius: 100px;
     border: 0;
     background-image: var(--color-primary-gradient);
@@ -200,6 +200,10 @@ img {
         font-size: 0.8rem;
         padding-block: 0.8rem;
     }
+
+    .card-form-button {
+        width: 80px;
+    }
 }
 
 @media(min-width: 700px) {
@@ -265,13 +269,13 @@ img {
     }
     
     .card-form-button {
-        padding-inline: 2.5rem;
+        width: 90px;
     }
 
     .card-form-error-icon {
         width: 25px;
         inset: 0 0 0 0;
-        margin: auto 120px auto auto;
+        margin: auto 130px auto auto;
     }
     
     .card-form-error-message {
@@ -324,7 +328,7 @@ img {
     }
 
     .card-form-button {
-        padding-inline: 3rem;
+        width: 120px;
     }
 
     .footer {
