@@ -142,10 +142,12 @@ img {
     width: 20px;
     inset: 0;
     margin: auto 70px auto auto;
+    transition: all 0.3s ease;
 }
 
 .show-card-form-error-icon {
     opacity: 1;
+    transition: all 0.3s ease;
 }
 
 .card-form-error-message {
@@ -156,6 +158,7 @@ img {
 }
 
 .show-card-form-error-message {
+    transition: all 0.3s ease;
     opacity: 1;
 }
 
