@@ -101,6 +101,10 @@ img {
     background-color: var(--color-transparent);
 }
 
+.card-form-error-input {
+    border: 1px solid var(--color-secondary-red);
+}
+
 .card-form-input::placeholder {
     color: var(--color-primary-red);
     font-family: inherit;
@@ -135,9 +139,9 @@ img {
 .card-form-error-icon {
     position: absolute;
     opacity: 0;
-    width: 25px;
-    inset: 0 0 0 180px;
-    margin: auto;
+    width: 20px;
+    inset: 0;
+    margin: auto 70px auto auto;
 }
 
 .show-card-form-error-icon {
@@ -184,6 +188,17 @@ img {
     .card-heading {
         font-size: 2.5rem;
         letter-spacing: 10px;
+    }
+
+    .card-form-error-icon {
+        width: 20px;
+        inset: 0 0 0 0;
+        margin: auto 90px auto auto;
+    }
+    
+    .card-form-error-message {
+        font-size: 0.8rem;
+        padding-block: 0.8rem;
     }
 }
 
@@ -244,9 +259,24 @@ img {
     .card-form {
         max-width: 400px;
     }
+
+    .card-form-input {
+        font-size: 1rem;
+    }
     
     .card-form-button {
         padding-inline: 2.5rem;
+    }
+
+    .card-form-error-icon {
+        width: 25px;
+        inset: 0 0 0 0;
+        margin: auto 120px auto auto;
+    }
+    
+    .card-form-error-message {
+        font-size: 0.8rem;
+        padding: 0.8rem 0 0.8rem 1rem;
     }
 
     .footer {
@@ -282,6 +312,19 @@ img {
 
     .card-form {
         max-width: 600px;
+    }
+
+    .card-form-input {
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .card-form-input::placeholder {
+        font-size: 1.2rem;
+    }
+
+    .card-form-button {
+        padding-inline: 3rem;
     }
 
     .footer {
